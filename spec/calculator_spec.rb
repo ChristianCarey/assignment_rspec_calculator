@@ -19,6 +19,7 @@ describe "Calculator" do
     let(:calculator){Calculator.new}
     
     describe "#add" do 
+      
       it "should add two numbers" do 
         expect(calculator.add(1,1)).to eq(2)
       end
